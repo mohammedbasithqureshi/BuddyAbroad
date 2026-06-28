@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1",
+    "scholarshipId": "1",
+    "reason": "Highest stipend for PhD students in India"
+  },
+  {
+    "id": "2",
+    "scholarshipId": "7",
+    "reason": "Top choice for USA education"
+  },
+  {
+    "id": "3",
+    "scholarshipId": "14",
+    "reason": "Best UK scholarship for working professionals"
+  }
+]

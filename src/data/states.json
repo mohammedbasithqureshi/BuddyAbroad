@@ -1,0 +1,17 @@
+[
+  {"id": "1", "name": "Telangana", "scholarshipCount": 12},
+  {"id": "2", "name": "Andhra Pradesh", "scholarshipCount": 10},
+  {"id": "3", "name": "Karnataka", "scholarshipCount": 8},
+  {"id": "4", "name": "Tamil Nadu", "scholarshipCount": 9},
+  {"id": "5", "name": "Maharashtra", "scholarshipCount": 11},
+  {"id": "6", "name": "Gujarat", "scholarshipCount": 7},
+  {"id": "7", "name": "Rajasthan", "scholarshipCount": 6},
+  {"id": "8", "name": "Uttar Pradesh", "scholarshipCount": 10},
+  {"id": "9", "name": "West Bengal", "scholarshipCount": 7},
+  {"id": "10", "name": "Kerala", "scholarshipCount": 8},
+  {"id": "11", "name": "Punjab", "scholarshipCount": 5},
+  {"id": "12", "name": "Haryana", "scholarshipCount": 5},
+  {"id": "13", "name": "Odisha", "scholarshipCount": 6},
+  {"id": "14", "name": "Bihar", "scholarshipCount": 7},
+  {"id": "15", "name": "Madhya Pradesh", "scholarshipCount": 6}
+]

@@ -1,0 +1,122 @@
+.top-bar {
+  background: var(--accent);
+  color: var(--white);
+  text-align: center;
+  font-size: 12px;
+  padding: 4px 8px;
+  font-weight: 500;
+}
+
+.navbar {
+  background: var(--navy);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  gap: 10px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.menu-btn {
+  background: transparent;
+  border: none;
+  color: var(--white);
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 4px 8px;
+  white-space: nowrap;
+}
+
+.nav-logo {
+  color: var(--white);
+  font-size: 17px;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.nav-search {
+  display: flex;
+  flex: 1;
+  max-width: 400px;
+}
+
+.nav-search input {
+  flex: 1;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  font-size: 14px;
+  outline: none;
+}
+
+.nav-search button {
+  background: var(--accent);
+  border: none;
+  color: var(--white);
+  padding: 7px 12px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 80%;
+  max-width: 300px;
+  height: 100vh;
+  background: var(--white);
+  z-index: 2000;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 4px 0 16px rgba(0,0,0,0.2);
+}
+
+.mobile-menu a {
+  padding: 13px 20px;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--dark);
+  border-bottom: 1px solid var(--gray-light);
+  text-decoration: none;
+}
+
+.mobile-menu a:hover {
+  background: var(--gray-bg);
+  color: var(--primary);
+}
+
+.menu-close {
+  background: var(--navy);
+  color: var(--white);
+  border: none;
+  padding: 14px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+}
+
+.menu-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 1500;
+}
